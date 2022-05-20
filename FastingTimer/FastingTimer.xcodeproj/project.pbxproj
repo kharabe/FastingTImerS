@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FC119B22830B3220008059B /* FastingTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC119B12830B3220008059B /* FastingTimerApp.swift */; };
+		5FC119B42830B3220008059B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC119B32830B3220008059B /* ContentView.swift */; };
+		5FC119B62830B3220008059B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC119B52830B3220008059B /* Assets.xcassets */; };
+		5FC119B92830B3220008059B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC119B82830B3220008059B /* Preview Assets.xcassets */; };
+		5FC119C32830B3230008059B /* FastingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC119C22830B3230008059B /* FastingTimerTests.swift */; };
+		5FC119CD2830B3230008059B /* FastingTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC119CC2830B3230008059B /* FastingTimerUITests.swift */; };
+		5FC119CF2830B3230008059B /* FastingTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC119CE2830B3230008059B /* FastingTimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FC119BF2830B3230008059B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC119A62830B3220008059B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC119AD2830B3220008059B;
+			remoteInfo = FastingTimer;
+		};
+		5FC119C92830B3230008059B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC119A62830B3220008059B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC119AD2830B3220008059B;
+			remoteInfo = FastingTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FC119AE2830B3220008059B /* FastingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC119B12830B3220008059B /* FastingTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerApp.swift; sourceTree = "<group>"; };
+		5FC119B32830B3220008059B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FC119B52830B3220008059B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC119B82830B3220008059B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FC119BE2830B3230008059B /* FastingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC119C22830B3230008059B /* FastingTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerTests.swift; sourceTree = "<group>"; };
+		5FC119C82830B3230008059B /* FastingTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastingTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC119CC2830B3230008059B /* FastingTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerUITests.swift; sourceTree = "<group>"; };
+		5FC119CE2830B3230008059B /* FastingTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FC119AB2830B3220008059B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119BB2830B3230008059B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119C52830B3230008059B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC119A52830B3220008059B = {
+			isa = PBXGroup;
+			children = (
+				5FC119B02830B3220008059B /* FastingTimer */,
+				5FC119C12830B3230008059B /* FastingTimerTests */,
+				5FC119CB2830B3230008059B /* FastingTimerUITests */,
+				5FC119AF2830B3220008059B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FC119AF2830B3220008059B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FC119AE2830B3220008059B /* FastingTimer.app */,
+				5FC119BE2830B3230008059B /* FastingTimerTests.xctest */,
+				5FC119C82830B3230008059B /* FastingTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FC119B02830B3220008059B /* FastingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				5FC119B12830B3220008059B /* FastingTimerApp.swift */,
+				5FC119B32830B3220008059B /* ContentView.swift */,
+				5FC119B52830B3220008059B /* Assets.xcassets */,
+				5FC119B72830B3220008059B /* Preview Content */,
+			);
+			path = FastingTimer;
+			sourceTree = "<group>";
+		};
+		5FC119B72830B3220008059B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FC119B82830B3220008059B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FC119C12830B3230008059B /* FastingTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC119C22830B3230008059B /* FastingTimerTests.swift */,
+			);
+			path = FastingTimerTests;
+			sourceTree = "<group>";
+		};
+		5FC119CB2830B3230008059B /* FastingTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC119CC2830B3230008059B /* FastingTimerUITests.swift */,
+				5FC119CE2830B3230008059B /* FastingTimerUITestsLaunchTests.swift */,
+			);
+			path = FastingTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FC119AD2830B3220008059B /* FastingTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC119D22830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimer" */;
+			buildPhases = (
+				5FC119AA2830B3220008059B /* Sources */,
+				5FC119AB2830B3220008059B /* Frameworks */,
+				5FC119AC2830B3220008059B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastingTimer;
+			productName = FastingTimer;
+			productReference = 5FC119AE2830B3220008059B /* FastingTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FC119BD2830B3230008059B /* FastingTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC119D52830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimerTests" */;
+			buildPhases = (
+				5FC119BA2830B3230008059B /* Sources */,
+				5FC119BB2830B3230008059B /* Frameworks */,
+				5FC119BC2830B3230008059B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC119C02830B3230008059B /* PBXTargetDependency */,
+			);
+			name = FastingTimerTests;
+			productName = FastingTimerTests;
+			productReference = 5FC119BE2830B3230008059B /* FastingTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FC119C72830B3230008059B /* FastingTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC119D82830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimerUITests" */;
+			buildPhases = (
+				5FC119C42830B3230008059B /* Sources */,
+				5FC119C52830B3230008059B /* Frameworks */,
+				5FC119C62830B3230008059B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC119CA2830B3230008059B /* PBXTargetDependency */,
+			);
+			name = FastingTimerUITests;
+			productName = FastingTimerUITests;
+			productReference = 5FC119C82830B3230008059B /* FastingTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FC119A62830B3220008059B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5FC119AD2830B3220008059B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5FC119BD2830B3230008059B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5FC119AD2830B3220008059B;
+					};
+					5FC119C72830B3230008059B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5FC119AD2830B3220008059B;
+					};
+				};
+			};
+			buildConfigurationList = 5FC119A92830B3220008059B /* Build configuration list for PBXProject "FastingTimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FC119A52830B3220008059B;
+			productRefGroup = 5FC119AF2830B3220008059B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FC119AD2830B3220008059B /* FastingTimer */,
+				5FC119BD2830B3230008059B /* FastingTimerTests */,
+				5FC119C72830B3230008059B /* FastingTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FC119AC2830B3220008059B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC119B92830B3220008059B /* Preview Assets.xcassets in Resources */,
+				5FC119B62830B3220008059B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119BC2830B3230008059B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119C62830B3230008059B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FC119AA2830B3220008059B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC119B42830B3220008059B /* ContentView.swift in Sources */,
+				5FC119B22830B3220008059B /* FastingTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119BA2830B3230008059B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC119C32830B3230008059B /* FastingTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC119C42830B3230008059B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC119CD2830B3230008059B /* FastingTimerUITests.swift in Sources */,
+				5FC119CF2830B3230008059B /* FastingTimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC119C02830B3230008059B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC119AD2830B3220008059B /* FastingTimer */;
+			targetProxy = 5FC119BF2830B3230008059B /* PBXContainerItemProxy */;
+		};
+		5FC119CA2830B3230008059B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC119AD2830B3220008059B /* FastingTimer */;
+			targetProxy = 5FC119C92830B3230008059B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FC119D02830B3230008059B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FC119D12830B3230008059B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FC119D32830B3230008059B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastingTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FC119D42830B3230008059B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastingTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FC119D62830B3230008059B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastingTimer.app/FastingTimer";
+			};
+			name = Debug;
+		};
+		5FC119D72830B3230008059B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastingTimer.app/FastingTimer";
+			};
+			name = Release;
+		};
+		5FC119D92830B3230008059B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastingTimer;
+			};
+			name = Debug;
+		};
+		5FC119DA2830B3230008059B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kitt.com.FastingTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastingTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FC119A92830B3220008059B /* Build configuration list for PBXProject "FastingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC119D02830B3230008059B /* Debug */,
+				5FC119D12830B3230008059B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC119D22830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC119D32830B3230008059B /* Debug */,
+				5FC119D42830B3230008059B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC119D52830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC119D62830B3230008059B /* Debug */,
+				5FC119D72830B3230008059B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC119D82830B3230008059B /* Build configuration list for PBXNativeTarget "FastingTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC119D92830B3230008059B /* Debug */,
+				5FC119DA2830B3230008059B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FC119A62830B3220008059B /* Project object */;
+}
